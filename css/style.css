@@ -1,0 +1,553 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo img {
+	width: 150px;
+}
+.navmenu {
+	width: 50%;
+	float: left;
+}
+
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 20px;
+    padding: 50px 0;
+
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li:hover {
+	background: lightblue;
+}
+
+.social-icon {
+	width: 10%;
+	float: left;
+}
+.social-icon ul {
+	list-style: none;
+}
+.social-icon ul li {
+	display: inline-block;
+	margin: 0 5px;
+    padding: 50px 0;
+}
+.social-icon ul li a {
+	text-decoration: none;
+}
+.social-icon ul li a i {
+
+}
+.fab.fa-facebook {
+	color: #39579A;
+}
+.fab.fa-twitter-square{
+	color:#04B9D9;
+}
+.fab.fa-linkedin{
+	color: #006295;
+}
+.fab.fa-google-plus {
+	color: red;
+}
+.user {
+	width: 20%;
+	float: left;
+	margin: 30px 0px;
+    padding: 15px 0px;
+}
+.user i {
+	padding: 0 10px;
+}
+.user button {
+    width: 70px;
+    padding: 10px 0;
+    background: limegreen;
+    color: brown;
+    border-radius: 20px;
+    border: none;
+}
+
+.banner {
+	background: url(../img/banner.jpg);
+	background-size: cover;
+	width: 100%;
+	float: left;
+	padding: 50px 0;
+}
+.box {
+	width:500px;
+	background-color: silver;
+	opacity: 80%;
+}
+.box h1 {
+	font-size: 50px;
+    padding: 50px 40px 20px;
+    text-align: center;
+}
+.box p {
+	color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.box button {
+	margin: 60px 50px;
+    padding: 10px 10px;
+    background: green;
+    color: white;
+    border-radius: 30px 10px 30px;
+}
+.box button:hover {
+	background: orange;
+}
+.icon {
+	width: 100%;
+	float: left;
+}
+.A {
+	width: 25%;
+	float: left;
+}
+.fas.fa-check-circle {
+	color: #6879D2;
+    padding: 90px 90px 50px;
+
+}
+.A h4 {
+	text-align: center;
+    padding-bottom: 10px;
+}
+.A p {
+	text-align: center;
+    padding-bottom: 20px;
+}
+.A button {
+	width: 100px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    display: block;
+    background: lightgreen;
+}
+.A button a {
+	text-decoration: none;
+	color: white;
+}
+
+.B {
+	width: 25%;
+	float: left;
+}
+.fas.fa-map-marker-alt {
+	color: #019586;
+    padding: 90px 90px 50px;
+
+}
+.B h4 {
+	text-align: center;
+    padding-bottom: 10px;
+}
+.B p {
+	text-align: center;
+    padding-bottom: 20px;
+}
+.B button {
+	width: 100px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    display: block;
+    background: lightgreen;
+}
+.B button a {
+	text-decoration: none;
+	color: white;
+}
+
+.C {
+	width: 25%;
+	float: left;
+}
+.fas.fa-money-bill-alt {
+	color: #4CB050;
+    padding: 90px 90px 50px;
+
+}
+.C h4 {
+	text-align: center;
+    padding-bottom: 10px;
+}
+.C p {
+	text-align: center;
+    padding-bottom: 20px;
+}
+.C button {
+	width: 100px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    display: block;
+    background: lightgreen;
+}
+.C button a {
+	text-decoration: none;
+	color: white;
+}
+
+.D {
+	width: 25%;
+	float: left;
+}
+.D i {
+	color: #94E269;
+    padding: 90px 90px 50px;
+
+}
+.D h4 {
+	text-align: center;
+    padding-bottom: 10px;
+}
+.D p {
+	text-align: center;
+    padding-bottom: 20px;
+}
+.D button {
+	width: 100px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    display: block;
+    background: lightgreen;
+}
+.D button a {
+	text-decoration: none;
+	color: white;
+}
+
+.part-three {
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+}
+
+.first {
+	width: 40%;
+	background-color: lightblue;
+	float: left;
+	padding: 50px 50px;
+	margin: 0 auto;
+}
+.first h2 {
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 40px;
+}
+.first ol li {
+    padding: 30px 20px;
+}
+.first button {
+	background: green;
+    color: white;
+    border-radius: 30px 10px 30px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    display: block;
+}
+.first button a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.first button:hover {
+	background: black;
+}
+
+.second {
+	width: 40%;
+	background-color: lightblue;
+	padding: 50px 50px;
+	float: left;
+	margin-left: 28px;
+	
+}
+.second h2 {
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 40px;
+}
+.second ol li {
+    padding: 30px 20px;
+}
+.second button {
+	background: green;
+    color: white;
+    border-radius: 30px 10px 30px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    display: block;
+}
+.second button a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.second button:hover {
+	background: black;
+}
+.blog {
+	width: 100%;
+	float: left;
+}
+h3 {
+	width: 100%;
+	text-align: center;
+	margin: 50px auto;
+	font-size: 50px;
+	color: #075874;
+}
+
+.left-side {
+	width: 50%;
+	float: left;
+}
+.left-side h5 {
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 0;
+	color: lime;
+}
+.left-side p {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 15px;
+}
+.left-side button {
+	background: green;
+    color: white;
+    border-radius: 30px 10px 30px;
+    padding: 10px 10px;
+    margin: 32px auto;
+    display: block;
+}
+.left-side button a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.right-side {
+	width: 50%;
+	float: left;
+}
+.right-side h5 {
+	text-align: center;
+	font-size: 20px;
+	padding: 25px 0;
+	color: lime;
+}
+.right-side p {
+	text-align: center;
+	padding: 35px 0;
+	font-size: 15px;
+}
+.right-side button {
+	background: green;
+    color: white;
+    border-radius: 30px 10px 30px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    display: block;
+}
+.right-side button a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.part-six {
+	width: 100%;
+	float: left;
+	background: #DCDCDC;
+	margin: 50px 0;
+	
+}
+.p-six {
+	width: 100%;
+	float:left;
+
+}
+.p-six h4 {
+	color: #021264;
+	text-align: center;
+	padding: 50px 0;
+	margin: 50px 0;
+	line-height: 40px;
+}
+.user-rating {
+	width: 100%;
+	float: left;
+}
+
+/*user rating start*/
+
+.av-rat {
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: green;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+  .right {
+    display: none;
+  }
+}
+
+.part-seven {
+	width: 100%;
+	float:left;
+	background: #808080;
+	margin: 50px 0 0;
+
+}
+.up {
+	width: 100%;
+	text-align:center;
+	font-size: 30px;
+	padding: 20px 0;
+}
+.down {
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+}
+.one {
+	width: 20%;
+	float: left;
+}
+.two {
+	width: 20%;
+	float: left;
+}
+.three {
+	width: 20%;
+	float: left;
+}
+.four {
+	width: 20%;
+	float: left;
+}
+.five {
+	width: 20%;
+	float: left;
+}
+.down h4 {
+	color: white;
+	font-size: 40px;
+	padding: 20px 0;
+}
+.down p {
+	font-size: 20px;
+}
+footer {
+	width: 100%;
+	float: left;
+	background: #031A21;
+}
+.l-side {
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: white;
+	padding: 20px 0;
+}
+.r-side {
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: white;
+	padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
